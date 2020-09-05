@@ -1,12 +1,27 @@
 use bevy::render::color::Color;
 
 pub struct Colors;
-
 impl Colors {
     pub fn print_color(color: Color) {
-        println!("RGBA: {}, {}, {}, {}", color.r, color.g, color.b, color.a);
+        print!(
+            "\x1b[38;2;{};{};{}m",
+            (color.r * 255.0) as u8,
+            (color.g * 255.0) as u8,
+            (color.b * 255.0) as u8
+        );
+        print!(
+            "\n{};{};{}\n",
+            (color.r * 255.0) as u8,
+            (color.g * 255.0) as u8,
+            (color.b * 255.0) as u8
+        );
+        print!("RGBA: {}, {}, {}, {}", color.r, color.g, color.b, color.a);
+        println!("\x1b[0m");
     }
+}
 
+pub struct Tailwind;
+impl Tailwind {
     pub const BLACK: Color = Color::rgb(0.0, 0.0, 0.0);
     pub const WHITE: Color = Color::rgb(1.0, 1.0, 1.0);
 

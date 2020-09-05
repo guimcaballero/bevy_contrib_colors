@@ -196,7 +196,6 @@ name = "bevy_contrib_colors"
 version = "0.1.0"
 dependencies = [
  "bevy",
- "hex",
 ]
 
 [[package]]

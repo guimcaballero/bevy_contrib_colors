@@ -1,6 +1,6 @@
 # Bevy color library
 
-Color library for the [bevy](https://github.com/bevyengine/bevy) game engine.
+Color library for the [Bevy](https://github.com/bevyengine/bevy) game engine.
 
 It currently contains the [Tailwind color palette](https://tailwindcss.com/docs/customizing-colors#default-color-palette), but feel free to open a PR to add more!
 

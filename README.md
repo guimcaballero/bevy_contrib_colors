@@ -6,6 +6,12 @@ It currently contains the [Tailwind color palette](https://tailwindcss.com/docs/
 
 ## How to use
 
+Add the project as a dependency in `Cargo.toml`:
+
+```
+bevy_contrib_colors = { git = "https://github.com/guimcaballero/bevy_contrib_colors", branch = "master" }
+```
+
 Just import `bevy_contrib_colors::Tailwind` and use like so:
 
 ```rust

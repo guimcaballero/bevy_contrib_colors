@@ -3,8 +3,11 @@ name = "bevy_contrib_colors"
 version = "0.1.0"
 authors = ["guimcaballero <guim@caballerocoll.com>"]
 edition = "2018"
+description = "Color library for the Bevy game engine."
+license = "MIT"
+repository = "https://github.com/guimcaballero/bevy_contrib_colors"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", branch = "master" }
+bevy = "0.1.3"

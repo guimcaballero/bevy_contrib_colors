@@ -9,7 +9,7 @@ It currently contains the [Tailwind color palette](https://tailwindcss.com/docs/
 Add the project as a dependency in `Cargo.toml`:
 
 ```
-bevy_contrib_colors = { git = "https://github.com/guimcaballero/bevy_contrib_colors", branch = "master" }
+bevy_contrib_colors = "0.1.0"
 ```
 
 Just import `bevy_contrib_colors::Tailwind` and use like so:

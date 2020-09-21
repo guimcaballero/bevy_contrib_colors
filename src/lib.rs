@@ -1,4 +1,4 @@
-use bevy::render::color::Color;
+use bevy::prelude::Color;
 
 pub struct Colors;
 impl Colors {

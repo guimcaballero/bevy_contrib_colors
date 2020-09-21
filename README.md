@@ -9,13 +9,13 @@ It currently contains the [Tailwind color palette](https://tailwindcss.com/docs/
 Add the project as a dependency in `Cargo.toml`:
 
 ```
-bevy_contrib_colors = "0.1.1"
+bevy_contrib_colors = "0.2.0"
 ```
 
 Just import `bevy_contrib_colors::Tailwind` and use like so:
 
 ```rust
-    use bevy::render::color::Color;
+    use bevy::prelude::Color;
     use bevy_contrib_colors::Tailwind;
 
     let red: Color = Tailwind::RED400; // #FC8181
